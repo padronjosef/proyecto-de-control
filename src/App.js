@@ -85,6 +85,11 @@ export const App = () => {
 
         <span className='result'>{result()}</span>
       </div>
+
+      <div className='copy-write'>
+        <p>Proyecto Hecho para PSM</p>
+        <p className='materia'>Materia: Proyecto de control</p>
+      </div>
     </div>
   );
 }

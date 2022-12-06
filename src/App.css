@@ -8,6 +8,7 @@
   justify-content: center;
 
   font-size: calc(10px + 3vmin);
+  justify-content: space-around;
 }
 
 .wrapper {
@@ -94,4 +95,20 @@
   border-bottom: 1px solid white;
   padding-bottom: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.copy-write {
+  font-size: calc(10px + 1vmin);
+  color: white;
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.copy-write>p {
+  margin: 0.2rem;
+}
+
+.materia {
+  font-size: calc(10px + 0.8vmin);
 }
